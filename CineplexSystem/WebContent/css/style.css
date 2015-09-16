@@ -1,0 +1,149 @@
+/*会员登录注册界面*/
+.content_center{
+	text-align:center;
+	background-image:url("../image/bg.jpg");
+	background-size:cover;/*平铺，不兼容IE6*/
+	font-family:"黑体";
+}
+.signin_out{
+	margin-right:auto;
+	margin-left:auto;
+	width:80%;
+	min-height:600px;
+	background-color:#ffffff;
+	
+}
+.signin_line{
+	background-image:url("../image/cut_line.png");
+	width:80px;
+	height:600px;
+	left:50%;
+	position:absolute;/*使用绝对定位*/
+	
+}
+.signin_inner{
+	padding:0px 65px;	
+}
+.signin_inner h5{
+	font-size:30px;
+	text-align:center;
+	padding-botton:30px;
+}
+.register{
+	float:left;
+	width:45%;
+}
+.login{
+	float:right;
+	width:45%;
+}
+.px16{
+	font-size:16px;
+	margin-top:-37px;
+}
+
+/*圆滑边框*/
+.radius{
+	border-radius:4px;
+	
+}
+
+.border{
+	height:49px;
+	width:80%;
+	border:1px solid;
+	
+}
+.err_border{
+	border-color:#D21538;
+}
+.reg_err{
+	height:17px;
+	width:80%;
+	border:1px solid #D21538;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-1px;
+	font-size:14px;
+	border-radius:4px;
+	background-color:rgb(243, 213, 217);
+	color:rgb(236, 24, 52);
+}
+.regin_btn{
+	background-color:#0379C8;
+	width:60%;
+	height:53px;
+	border-radius:10px;
+	color:white;
+	font-size:20px;
+	margin-top:20px;
+	
+}
+.reging{
+	background-color:#cccccc !important;
+}
+.checkbox{
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+.log_err{
+	color:red;
+}
+.reg_suc{
+	color:green;
+	margin-top:15px;
+}
+
+/*服务员经理登录界面*/
+.center_align_body{
+	text-align:center;
+	font-family:黑体;
+}
+.center_align_div{
+	margin-right:auto;
+	margin-left:auto;
+}
+.admin_log_input{
+	width:30%;
+	height:30px;
+	
+}
+.mt10{
+	margin-top:10px;
+}
+.admin_log_btn{
+	background-color:#0379C8;
+	width:30%;
+	height:45px;
+	border-radius:10px;
+	color:white;
+	font-size:20px;
+	margin-top:20px;
+}
+.admin_log_title{
+	margin-top:40px;
+	margin-bottom:10px;
+	font-size:20px;
+}
+.green{
+	color:green;
+}
+.width40{
+	width:40% !important;
+}
+.height80{
+	height:80px !important;
+}
+.height30{
+	height:30px !important;
+}
+.input_border{
+	border:1px solid #999;
+}
+.inline_display{
+	display:inline !important;
+}
+.width160{
+	width:160px !important;
+}
